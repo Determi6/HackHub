@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+body{
+    background-color: antiquewhite;
+    background-image: url(Background/18.png);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav{
+    font-family: 'Belanosima', sans-serif;
+}
+
+nav ul{
+    display: block;
+    align-items: left;
+    list-style-type: none;
+    height: 200px;
+    background-color: black;
+    border-radius: 12px;
+    width: 5.5%;
+    color:white;
+}
+
+nav ul li{
+    padding: 5px 7px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: block;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.b1{
+    width: 67px;
+    padding: 12px 8px;
+}
+
+.b2:hover{
+    background-color: rgba(200, 200,200,.5);
+    cursor: pointer;
+}
+.b1:hover{
+    background-color: rgba(200, 200,200,.5);
+    cursor: pointer;
+}
+.b1{
+    display: block;
+    border-radius: 40px;
+    background: grey;
+    color: white;
+}
+
+.b2{
+    display: block;
+    border-radius: 40px;
+    background: grey;
+    color: white;
+}
+
+.b2{
+    width: 67px;
+    padding: 12px 8px
+} */
+.sidebar{
+    padding: 10px;
+}
+.sidebar .sidebar1{
+    width: 200px;
+    height: 13%;
+    border-radius: 12px;
+    background: #4b4276;
+    padding: 30px 0px;
+    position: fixed;
+}
+
+.sidebar .sidebar2{
+    width: 200px;
+    height: 60%;
+    margin-top: 205px;
+    border-radius: 12px;
+    background: #4b4276;
+    padding: 30px 0px;
+    position: fixed;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: block;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.sidebar .sidebar1 ul li{
+    padding: 15px;
+    border-radius: 12px;
+}
+.sidebar .sidebar2 ul li{
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.sidebar .sidebar1 ul li a{
+    color: #bdb8d7;
+    display: block;
+}
+.sidebar .sidebar2 ul li a{
+    color: #bdb8d7;
+    display: block;
+}
+
+.sidebar .sidebar1 ul li a .fas{
+    width: 25px;
+}
+.sidebar .sidebar2 ul li a .fas{
+    width: 25px;
+}
+
+.sidebar .sidebar1 ul li:hover{
+    background-color: #594f8d;
+}
+.sidebar .sidebar2 ul li:hover{
+    background-color: #594f8d;
+}
+
+.sidebar .sidebar1 ul li:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.sidebar .sidebar2 ul li:hover{
+    color: #ffffff;
+}
+
+/* from here */
+.container{
+    min-height: 72vh;
+    background: rgba(128, 128, 128, 0.67);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    
+}
